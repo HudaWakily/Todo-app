@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import './fanta.css';
+import './fanta.css';
 import './App.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

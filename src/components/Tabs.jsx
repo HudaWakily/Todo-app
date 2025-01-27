@@ -11,7 +11,7 @@ export const Tabs = ({ todos, selectedTab, setSelectedTab }) => {
             return(
                 <button onClick={() =>{
                     setSelectedTab(tab)
-                }} key={tabIndex} className={ "tab-button"+(tab === selectedTab ? "tab-selected" : '')}>
+                }} key={tabIndex} className={ "tab-button" + (tab === selectedTab ? 'selecte-tab' : '')}>
                    <h4> {tab} <span>({numOfTasks})</span></h4>
                     
                     </button>
